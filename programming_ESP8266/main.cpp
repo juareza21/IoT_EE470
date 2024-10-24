@@ -11,8 +11,9 @@
  *    into the Users database. This program also fetches the time that the reading was captured at.
  * 
  * Inputs:
- *    D1, Switch reading to tell the program when to fetch data
- *    D2, Temperature and humidity value readings
+ *    D1: Switch reading to tell the program when to fetch data
+ *    D2: Temperature and humidity value readings
+ *    timeZ: The input of the time zone that was selected by the user
  * 
  * Outputs:
  *    Collected data that is sent into the database.
